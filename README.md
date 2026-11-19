@@ -78,21 +78,21 @@ CBSafe/
 
 ## 🛠️ Сборка проекта
 
+Подробное руководство со всеми шагами, путями и решением ошибок вынесено в отдельный документ:  
+👉 **[Полная инструкция по сборке (BUILD.md)](BUILD.md)**
+
+### Краткий порядок:
 1. Склонируйте репозиторий:
    ```bash
    git clone https://github.com/yukkayho/CBSafe.git
    ```
 2. Откройте проект в **Visual Studio 2022** или **JetBrains Rider**.
-3. Убедитесь, что пути к DLL-библиотекам игры в `CBSafe.csproj` соответствуют вашей установке Rust:
-   * `Assembly-CSharp.dll`
-   * `UnityEngine.CoreModule.dll`
-   * `0Harmony.dll`
-   * `BepInEx.dll`
-4. Выберите конфигурацию **Release | Any CPU** и выполните сборку:
+3. Проверьте актуальность путей к BepInEx interop-библиотекам в `CBSafe.csproj`.
+4. Соберите проект:
    ```bash
    dotnet build CBSafe.csproj -c Release
    ```
-5. Полученный `.dll` файл поместите в папку `BepInEx/plugins/` вашего клиента Rust.
+5. Полученный `CBSafe.dll` скопируйте в `<Папка_игры>/BepInEx/plugins/`.
 
 ---
 
