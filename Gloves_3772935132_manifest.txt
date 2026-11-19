@@ -1,0 +1,48 @@
+{
+  "Groups": [
+    {
+      "Colors": {
+        "_Color": {
+          "b": 1.0,
+          "r": 1.0,
+          "g": 1.0
+        },
+        "_SpecColor": {
+          "b": 1.0,
+          "r": 1.0,
+          "g": 1.0
+        },
+        "_EmissionColor": {
+          "b": 0.0,
+          "r": 0.0,
+          "g": 0.0
+        },
+        "_MicrofiberFuzzColor": {
+          "b": 1.0,
+          "r": 1.0,
+          "g": 1.0
+        }
+      },
+      "Textures": {
+        "_MainTex": "_MainTex0.png",
+        "_OcclusionMap": "_OcclusionMap0.png",
+        "_SpecGlossMap": "_SpecGlossMap0.png",
+        "_BumpMap": "_BumpMap0.png",
+        "_MicrofiberFuzzMask": "none"
+      },
+      "Floats": {
+        "_Cutoff": 0.0,
+        "_BumpScale": 1.0,
+        "_Glossiness": 1.0,
+        "_OcclusionStrength": 0.7,
+        "_MicrofiberFuzzIntensity": 0.0,
+        "_MicrofiberFuzzScatter": 0.704,
+        "_MicrofiberFuzzOcclusion": 1.0
+      }
+    }
+  ],
+  "Version": 3,
+  "ItemType": "Tactical Gloves",
+  "AuthorId": 76561199005154243,
+  "PublishDate": "2026-07-27T22:35:57.1505724Z"
+}

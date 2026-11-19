@@ -1,0 +1,219 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>CBSafe</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="CBSafeHolo.Embedded.holosight_.obj" />
+    <None Remove="model_1.obj" />
+    <None Remove="model_2.obj" />
+    <None Remove="model_3.obj" />
+    <None Remove="model_4.obj" />
+    <None Remove="model_5.obj" />
+    <None Remove="model_6.obj" />
+    <None Remove="model_f15e.obj" />
+    <None Remove="CBSafeHolo.Embedded.mat_0.png" />
+    <None Remove="CBSafeHolo.Embedded.mat_1.png" />
+    <None Remove="Gloves_3607105045.png" />
+    <None Remove="Gloves_3607105045_Bump.png" />
+    <None Remove="Gloves_3607105045_Occ.png" />
+    <None Remove="Gloves_3607105045_Spec.png" />
+    <None Remove="Gloves_3620171303.png" />
+    <None Remove="Gloves_3620171303_Bump.png" />
+    <None Remove="Gloves_3620171303_Occ.png" />
+    <None Remove="Gloves_3620171303_Spec.png" />
+    <None Remove="Gloves_3662995121.png" />
+    <None Remove="Gloves_3662995121_Bump.png" />
+    <None Remove="Gloves_3662995121_Occ.png" />
+    <None Remove="Gloves_3662995121_Spec.png" />
+    <None Remove="Gloves_3709631672.png" />
+    <None Remove="Gloves_3709631672_Bump.png" />
+    <None Remove="Gloves_3709631672_Occ.png" />
+    <None Remove="Gloves_3709631672_Spec.png" />
+    <None Remove="Gloves_3732758382.png" />
+    <None Remove="Gloves_3732758382_Bump.png" />
+    <None Remove="Gloves_3732758382_Occ.png" />
+    <None Remove="Gloves_3732758382_Spec.png" />
+    <None Remove="Gloves_3752934749.png" />
+    <None Remove="Gloves_3772935132.png" />
+    <None Remove="Gloves_3772935132_Bump.png" />
+    <None Remove="Gloves_3772935132_Occ.png" />
+    <None Remove="Gloves_3772935132_Spec.png" />
+    <None Remove="Gloves_Bump.png" />
+    <None Remove="Gloves_Occ.png" />
+    <None Remove="Gloves_Spec.png" />
+    <None Remove="Gloves_Stealth.png" />
+    <None Remove="model_1.png" />
+    <None Remove="model_2.png" />
+    <None Remove="model_3.png" />
+    <None Remove="model_4.png" />
+    <None Remove="model_5.png" />
+    <None Remove="model_6.png" />
+    <None Remove="model_f15e.png" />
+    <None Remove="CBSafe.Res.rifle.ak.glass.png" />
+    <None Remove="Gloves_3662995121_manifest.json" />
+    <None Remove="Gloves_3772935132_manifest.json" />
+    <None Remove="Gloves_3662995121_manifest.txt" />
+    <None Remove="Gloves_3772935132_manifest.txt" />
+    <None Remove="SoIsThisOne_4918bc75" />
+    <None Remove="CBSafe.Res.glass_ak.bundle" />
+    <None Remove="CBSafe.Embedded.CBSlotColor.dll" />
+    <EmbeddedResource Include="CBSafeHolo.Embedded.holosight_.obj" />
+    <EmbeddedResource Include="model_1.obj" />
+    <EmbeddedResource Include="model_2.obj" />
+    <EmbeddedResource Include="model_3.obj" />
+    <EmbeddedResource Include="model_4.obj" />
+    <EmbeddedResource Include="model_5.obj" />
+    <EmbeddedResource Include="model_6.obj" />
+    <EmbeddedResource Include="model_f15e.obj" />
+    <EmbeddedResource Include="CBSafeHolo.Embedded.mat_0.png" />
+    <EmbeddedResource Include="CBSafeHolo.Embedded.mat_1.png" />
+    <EmbeddedResource Include="Gloves_3607105045.png" />
+    <EmbeddedResource Include="Gloves_3607105045_Bump.png" />
+    <EmbeddedResource Include="Gloves_3607105045_Occ.png" />
+    <EmbeddedResource Include="Gloves_3607105045_Spec.png" />
+    <EmbeddedResource Include="Gloves_3620171303.png" />
+    <EmbeddedResource Include="Gloves_3620171303_Bump.png" />
+    <EmbeddedResource Include="Gloves_3620171303_Occ.png" />
+    <EmbeddedResource Include="Gloves_3620171303_Spec.png" />
+    <EmbeddedResource Include="Gloves_3662995121.png" />
+    <EmbeddedResource Include="Gloves_3662995121_Bump.png" />
+    <EmbeddedResource Include="Gloves_3662995121_Occ.png" />
+    <EmbeddedResource Include="Gloves_3662995121_Spec.png" />
+    <EmbeddedResource Include="Gloves_3709631672.png" />
+    <EmbeddedResource Include="Gloves_3709631672_Bump.png" />
+    <EmbeddedResource Include="Gloves_3709631672_Occ.png" />
+    <EmbeddedResource Include="Gloves_3709631672_Spec.png" />
+    <EmbeddedResource Include="Gloves_3732758382.png" />
+    <EmbeddedResource Include="Gloves_3732758382_Bump.png" />
+    <EmbeddedResource Include="Gloves_3732758382_Occ.png" />
+    <EmbeddedResource Include="Gloves_3732758382_Spec.png" />
+    <EmbeddedResource Include="Gloves_3752934749.png" />
+    <EmbeddedResource Include="Gloves_3772935132.png" />
+    <EmbeddedResource Include="Gloves_3772935132_Bump.png" />
+    <EmbeddedResource Include="Gloves_3772935132_Occ.png" />
+    <EmbeddedResource Include="Gloves_3772935132_Spec.png" />
+    <EmbeddedResource Include="Gloves_Bump.png" />
+    <EmbeddedResource Include="Gloves_Occ.png" />
+    <EmbeddedResource Include="Gloves_Spec.png" />
+    <EmbeddedResource Include="Gloves_Stealth.png" />
+    <EmbeddedResource Include="model_1.png" />
+    <EmbeddedResource Include="model_2.png" />
+    <EmbeddedResource Include="model_3.png" />
+    <EmbeddedResource Include="model_4.png" />
+    <EmbeddedResource Include="model_5.png" />
+    <EmbeddedResource Include="model_6.png" />
+    <EmbeddedResource Include="model_f15e.png" />
+    <EmbeddedResource Include="CBSafe.Res.rifle.ak.glass.png" />
+    <EmbeddedResource Include="Gloves_3662995121_manifest.json" />
+    <EmbeddedResource Include="Gloves_3772935132_manifest.json" />
+    <EmbeddedResource Include="Gloves_3662995121_manifest.txt" />
+    <EmbeddedResource Include="Gloves_3772935132_manifest.txt" />
+    <EmbeddedResource Include="SoIsThisOne_4918bc75" />
+    <EmbeddedResource Include="CBSafe.Res.glass_ak.bundle" />
+    <EmbeddedResource Include="CBSafe.Embedded.CBSlotColor.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\core\BepInEx.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.UI">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Console">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Facepunch.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Steamworks.Win64">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Facepunch.Steamworks.Win64.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Platform.Steam">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.Platform.Steam.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Workshop">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.Workshop.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.Flexbox">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Facepunch.Flexbox.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Localization">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.Localization.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Facepunch.UnityEngine">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Facepunch.UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Platform.Common">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.Platform.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Global">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.Global.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Rust.Data">
+      <HintPath>..\CobaltRust\CobaltRust\BepInEx\interop\Rust.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
